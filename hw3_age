@@ -1,0 +1,90 @@
+#HOMEWORK_3
+
+"""
+TOTAL DAYS   = 365*90 => 32850
+TOTAL WEEKS  = 52*90  => 4680
+TOTAL MONTHS = 12*90  => 1080
+"""
+
+Const_age = 90
+
+user_age =int(input("ENTER Age :> "))
+if(user_age>=90):
+            print("\nREST IN PEACE")
+            exit()
+else:
+    #>>NOW CALCULATION.........
+    #>>AGE::>
+    Rem_age = Const_age - user_age  
+    Rem_days   = Rem_age * 365
+    Rem_week   = Rem_age*52
+    Rem_months = Rem_age *12
+    
+    Rem_age = str(Rem_age) #converted just for display
+    print("____________    Remain_age = "+Rem_age+"  __________________________")
+    print("\nDays = ",Rem_days)
+    print("\nWeeks = ",Rem_week)
+    print("\nMonths = ",Rem_months) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         

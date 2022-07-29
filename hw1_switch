@@ -1,0 +1,32 @@
+#HOMEWORK_1
+
+"""
+HOMEWORK_1  : SWITCH TO IF ELSE ELSEIF
+NAME        : AHER SAURABH SANTOSH
+BATCH       : PYTHON
+GUIDE BY    : BHAVSAR SIR
+DATE        : 29/7/2022 (6:30 PM) 
+DESCRIPTION : Python Dont Have Switch Case so we are using If else elif  
+"""
+
+print("PRESS\n35:FYBSC A\n36:FYBSC B")
+print("37:SYBSC A\n38:SYBSC B\n39:TYBSC")
+
+Input = int(input("ENTER YOUR CHOICE:> "))
+
+if(Input==35):
+        print("WELCOME TO FYBSC A")
+elif(Input==36):
+        print("WELCOME TO FYBSC B")
+elif(Input==37):
+        print("WELCOME TO SYBSC A")
+elif(Input==38):
+        print("WELCOME TO SYBSC B")
+elif(Input==39):
+        print("WELCOME TO TYBSC ")
+else:
+    print("INVALID INPUT!!!")
+print("\nTHANK YOU....")    
+                
+                
+               

@@ -1,0 +1,24 @@
+#HOMEWORK 2
+
+"""
+HOMEWORK_2  : Check Palindrome
+NAME        : AHER SAURABH SANTOSH
+BATCH       : PYTHON
+GUIDE BY    : BHAVSAR SIR
+DATE        : 29/7/2022 (06:32 PM) 
+DESCRIPTION : Eg: Papap is plindrome because its reverse will be same papaP
+"""
+#>>TAKE INPUT FROM USER
+User_String = input("ENTER THE STRING:> ")
+
+#>>REVERSE THE STRING
+reverse = (User_String[::-1])
+
+#>> CONVERTES STRING INTO SAME CASE i.e SMALL LETTER
+User_String = User_String.lower()
+reverse     = reverse.lower()
+if (reverse==User_String):
+                  print("\n_YES_"+User_String+"__IS__"+"PALINDROME!")
+else:
+     print("\nNOT A PALINDROME STRING")            
+
